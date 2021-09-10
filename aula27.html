@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label {
+            display: block;
+        }
+        
+        input {
+            display: block;
+        }
+        
+        input[type=submit],
+        label {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="curso1" id="curso1" action="a" method="post">
+        <label>Nome</label>
+        <input type="text" name="fname" id="teste" value="primeiro - 1">
+        <label>Senha</label>
+        <input type="password" name="fsenha" value="123">
+        <input type="submit" name="btnEnviar" value="Enviar">
+    </form>
+
+    <hr>
+
+    <script>
+        document.write(document.getElementById("curso1").elements[0].value);
+        //var fm = document.forms["curso1"].elements[0].value;
+        //var fm = document.forms.item(0).id;
+        //var fm = document.forms.namedItem("curso1").innerHTML;
+        var fm = document.forms[0];
+        var el = fm.elements;
+
+        for (var i = 0; i < el.length; i++) {
+            el[i].style.backgroundColor = "gray";
+            el[i].style.color = "white";
+            el[i].style.border = "2px solid orange";
+            el[i].style.borderRadius = "10px"
+            el[i].style.boxShadow = "5px 5px 5px black";
+        }
+
+        //document.write(fm)
+    </script>
+</body>
+
+</html>
