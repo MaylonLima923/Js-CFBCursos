@@ -1,0 +1,11 @@
+#dv1 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(80, 80, 80);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 5px 5px 5px black;
+}
