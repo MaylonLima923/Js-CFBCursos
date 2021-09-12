@@ -1,0 +1,7 @@
+#dvslider {
+    width: 400px;
+    height: 120px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
