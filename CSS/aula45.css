@@ -1,0 +1,26 @@
+#carro {
+    width: 200px;
+    height: 390px;
+}
+
+.c1 {
+    background-image: url(../imgs/aula45/c1.jpeg);
+}
+
+.c2 {
+    background-image: url(../imgs/aula45/c2.jpeg);
+}
+
+.c3 {
+    background-image: url(../imgs/aula45/c3.jpeg);
+}
+
+button {
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 80, 80);
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px rgb(0, 0, 0);
+    width: 70px;
+    height: 40px;
+}
